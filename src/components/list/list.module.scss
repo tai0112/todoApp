@@ -1,0 +1,45 @@
+
+.list {
+    margin: 20px 0;
+    list-style: none;
+}
+
+.listItem {
+    display: flex;
+    background-color: #f1f1f1;
+    font-size: 30px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+    transition: opacity linear .3s;
+}
+
+
+
+.delete {
+    margin: 0 60px;
+    &:hover {
+        cursor: pointer;
+        color: #dc3545;
+    }
+}
+
+
+.done {
+    margin: 0 10px;
+    &:hover {
+        cursor: pointer;
+        color: #28a745;
+    }
+}
+
+.isDone {
+    text-decoration-line: line-through;
+}
